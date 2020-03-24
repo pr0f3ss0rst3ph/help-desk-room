@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Emerge Help Desk</title>
-        <link
+  <head>
+    <title>Emerge Help Desk</title>
+    <link rel="stylesheet" href="assets/login.css" type="text/css" />
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    </head>
-    <body>
-        <h1>Emerge BPO Help Desk</h1>
-        <div>
-            <div id="userimage">
-                <img src="images/userimage.png" width="10%" height="10%">
-            </div>
-        </div>
+  </head>
+  <body>
+    <div class="content-body">
+      <div id="userimage">
+        <img src="images/userimage.png" width="7%" height="7%" />
+      </div>
+      <div class="bigtext">Emerge BPO Help Desk</div>
+
+      <div class="form-area">
         <form method="POST" action="">
+          <div class="input-fields">
             <label for="username">Username:</label>
-            <input type="text" name="username" id="username" />
+            <input
+              type="text"
+              name="username"
+              id="username"
+              autocomplete="off"
+              placeholder=" Username"
+            />
             <label for="userpassword">Password:</label>
-            <input type="password" name="userpassword" id="userpassword" />
+            <input
+              type="password"
+              name="userpassword"
+              id="userpassword"
+              autocomplete="off"
+              placeholder=" Password"
+            />
+          </div>
+          <br>
+          <input type="submit" name="submit"  id="login-button" value="Log In" />
         </form>
-    </body>
+      </div>
+    </div>
+  </body>
 </html>
