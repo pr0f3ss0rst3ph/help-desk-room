@@ -1,64 +1,109 @@
 /*? Fonts*/
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 /*? Initial Overall Adjustments*/
-body{
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+body {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 /*? Text CSS*/
-.bigtext{
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: rgb(94, 94, 94);
-    font-family: 'Roboto', sans-serif;
+.bigtext {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(94, 94, 94);
+  font-family: "Roboto", sans-serif;
 }
 
 /*? Box for Image*/
-#userimage{
-    margin-top: 5%;
-    margin-bottom: 2%;
-    text-align: center;
+#userimage {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  text-align: center;
 }
 
 /*? Box for Image*/
-.formarea{
-    
-    padding: 5px;
+.formarea {
+  padding: 5px;
 }
-form{
-    margin-top: 3%;
-    text-align: center;
-    margin-bottom: 5%;
-    color: rgb(94, 94, 94);
-    font-family: 'Roboto', sans-serif;
+form {
+  margin-top: 3%;
+  text-align: center;
+  margin-bottom: 5%;
+  color: rgb(94, 94, 94);
+  font-family: "Roboto", sans-serif;
 }
 
 /*? Box for Image*/
-.content-body{
-    margin-top: 30px;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding: 7px;
-    background-color: blanchedalmond;
-    border-radius: 5px;
+.content-body {
+  margin-top: 30px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 7px;
+  background-color: rgb(255, 223, 193);
+  border-radius: 5px;
+  -webkit-box-shadow: 0px -1px 10px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -1px 10px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 10px -1px rgba(0, 0, 0, 0.75);
 }
 
 /*? Buttons Stylings*/
-#login-button{
-    border: 0;
-    padding: 7px;
-    background-color: rgb(255, 210, 126);
-    border-radius: 7px;
+#login-button {
+  border: 0;
+  padding: 7px;
+  background-color: rgb(255, 210, 126);
+  border-radius: 7px;
+  transition: 1s;
 }
 
-#login-button:hover{
-    background-color: rgb(255, 166, 1);
+#login-button:hover {
+  background-color: rgb(255, 136, 1);
+  transition: 1s;
+}
+input[type="text"] {
+  border: 0;
+}
+
+input[type="text"]:active {
+  border: 0;
+  -webkit-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  transition: 1s;
+}
+
+input[type="text"]:focus{
+    border: 0;
+  -webkit-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  transition: 1s;
+}
+
+
+input[type="password"]{
+    border: 0;
+}
+
+input[type="password"]:active{
+    border: 0;
+    -webkit-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  transition: 1s;
+}
+
+
+input[type="password"]:focus{
+    border: 0;
+    -webkit-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  transition: 1s;
 }
