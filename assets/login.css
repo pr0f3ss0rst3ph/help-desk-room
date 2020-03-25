@@ -66,8 +66,8 @@ form {
   transition: 1s;
 }
 
-label{
-    color: rgb(94, 94, 94);
+label {
+  color: rgb(94, 94, 94);
 }
 input[type="text"] {
   border: 0;
@@ -82,41 +82,43 @@ input[type="text"]:active {
   transition: 1s;
 }
 
-input[type="text"]:focus{
-    border: 0;
+input[type="text"]:focus {
+  border: 0;
+  -webkit-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  transition: 1s;
+  outline: none;
+}
+
+input[type="password"] {
+  border: 0;
+}
+
+input[type="password"]:active {
+  border: 0;
   -webkit-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
   transition: 1s;
 }
 
-
-input[type="password"]{
-    border: 0;
-}
-
-input[type="password"]:active{
-    border: 0;
-    -webkit-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+input[type="password"]:focus {
+  border: 0;
+  -webkit-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
   transition: 1s;
+  outline: none;
 }
 
-
-input[type="password"]:focus{
-    border: 0;
-    -webkit-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
-  transition: 1s;
-}
-
-::-webkit-input-placeholder { /* Edge */
+::-webkit-input-placeholder {
+  /* Edge */
   color: rgb(173, 173, 173);
 }
 
-:-ms-input-placeholder { /* Internet Explorer */
+:-ms-input-placeholder {
+  /* Internet Explorer */
   color: rgb(173, 173, 173);
 }
 
