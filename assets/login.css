@@ -72,6 +72,7 @@ label {
 input[type="text"] {
   border: 0;
   color: rgb(94, 94, 94);
+  transition-timing-function: ease;
 }
 
 input[type="text"]:active {
@@ -84,15 +85,17 @@ input[type="text"]:active {
 
 input[type="text"]:focus {
   border: 0;
-  -webkit-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -1px 5px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 5px -1px rgba(0, 0, 0, 0.75);
   transition: 1s;
   outline: none;
+  transition-timing-function: ease;
 }
 
 input[type="password"] {
   border: 0;
+  transition-timing-function: ease;
 }
 
 input[type="password"]:active {
@@ -101,13 +104,14 @@ input[type="password"]:active {
   -moz-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
   transition: 1s;
+  transition-timing-function: ease;
 }
 
 input[type="password"]:focus {
   border: 0;
-  -webkit-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px -1px 6px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -1px 5px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 5px -1px rgba(0, 0, 0, 0.75);
   transition: 1s;
   outline: none;
 }
