@@ -74,6 +74,7 @@ input[type="text"] {
   color: rgb(94, 94, 94);
   transition-timing-function: ease;
   border-radius: 5px;
+  text-align: center;
 }
 
 input[type="text"]:active {
@@ -98,6 +99,7 @@ input[type="password"] {
   border: 0;
   transition-timing-function: ease;
   border-radius: 5px;
+  text-align: center;
 }
 
 input[type="password"]:active {
