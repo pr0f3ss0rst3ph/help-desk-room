@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head><!--?  This area contains the website information such as the content size, location of stylesheet and browser favicon-->
-    <title>Emerge Help Desk</title><!--? Displays in the Browser tab-->
-    <link rel="stylesheet" href="assets/login.css" type="text/css" /><!--? Local Stylesheet for the webpage-->
+  <head>
+    <!--?  This area contains the website information such as the content size, location of stylesheet and browser favicon-->
+    <title>Emerge Help Desk</title>
+    <!--? Displays in the Browser tab-->
+    <link rel="stylesheet" href="assets/login.css" type="text/css" />
+    <!--? Local Stylesheet for the webpage-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    /><!--? Bootstrap stylesheet located online-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!--? Sets the viewport of the website-->
+    />
+    <!--? Bootstrap stylesheet located online-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--? Sets the viewport of the website-->
   </head>
-  <body><!--? All Information stored here are displayed within the browser body -->
-    <div class="content-body"><!--! FIRST - Login Box-->
+  <body>
+    <!--? All Information stored here are displayed within the browser body -->
+    <div class="content-body">
+      <!--! FIRST - Login Box-->
 
-      <div id="userimage"><!--? Image box-->
+      <div id="userimage">
+        <!--? Image box-->
         <img src="images/userimage.png" width="10%" height="10%" />
       </div>
 
-      <div class="bigtext">Emerge BPO Help Desk</div><!--? Title Text-->
+      <div class="bigtext">Emerge BPO Help Desk</div>
+      <!--? Title Text-->
 
-      <div class="form-area"><!--! SECOND - Box for the form-->
+      <div class="form-area">
+        <!--! SECOND - Box for the form-->
 
-        <form method="POST" action=""><!--? Form CSS-->
-          <div class="input-fields"><!--? Invisible box for input fields-->
-            
+        <form method="POST" action="">
+          <!--? Form CSS-->
+          <div class="input-fields">
+            <!--? Invisible box for input fields-->
+
             <input
               type="text"
               name="username"
@@ -30,7 +42,7 @@
               autocomplete="off"
               placeholder=" Username"
             />
-            
+
             <input
               type="password"
               name="userpassword"
@@ -39,11 +51,10 @@
               placeholder=" Password"
             />
           </div>
-          <br><!--? Makes space between input-fields box and the login button-->
-          <input type="submit" name="submit"  id="login-button" value="Log In" />
+          <br /><!--? Makes space between input-fields box and the login button-->
+          <input type="submit" name="submit" id="login-button" value="Log In" />
         </form>
-
       </div>
-
+    </div>
   </body>
 </html>
