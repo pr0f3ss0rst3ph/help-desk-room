@@ -5,6 +5,8 @@ $fullwidth: 100%;
 $headingcolor: rgb(66, 66, 66);
 $bodycolor: #ffc97d;
 $contentbodycolor: rgb(255, 195, 139);
+$buttoncolor: rgb(253, 170, 92);
+$buttonhovercolor: rgb(255, 136, 1);
 $robotofont: "Roboto", sans-serif;
 $standardtransition: 0.5s;
 $boxshadow1: 0px -1px 10px -1px rgba(0, 0, 0, 0.75);
@@ -52,7 +54,6 @@ form {
 
 /*? Box for Image*/
 .content-body {
-  margin-top: 50px;
   margin-left: 25%;
   margin-right: 25%;
   padding: 7px;
@@ -67,13 +68,13 @@ form {
 #login-button {
   border: 0;
   padding: 7px;
-  background-color: rgb(255, 210, 126);
+  background-color: $buttoncolor;
   border-radius: 7px;
   transition: 0.5s;
 }
 
 #login-button:hover {
-  background-color: rgb(255, 136, 1);
+  background-color: $buttonhovercolor;
   transition: 0.5s;
 }
 
