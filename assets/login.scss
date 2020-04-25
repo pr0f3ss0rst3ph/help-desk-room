@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 $fullwidth: 100%;
-$headingcolor: rgb(94, 94, 94);
+$headingcolor: rgb(66, 66, 66);
+$bodycolor: #ffc97d;
+$contentbodycolor: rgb(255, 195, 139);
 $robotofont: "Roboto", sans-serif;
 $standardtransition: 0.5s;
 $boxshadow1: 0px -1px 10px -1px rgba(0, 0, 0, 0.75);
@@ -15,7 +17,7 @@ body {
   padding: 0;
   margin: 0;
   text-align: center;
-  background-color: #ffc97d;
+  background-color: $bodycolor;
 }
 
 /*? Text CSS*/
@@ -54,7 +56,7 @@ form {
   margin-left: 25%;
   margin-right: 25%;
   padding: 7px;
-  background-color: rgb(255, 223, 193);
+  background-color: $contentbodycolor;
   border-radius: 5px;
   -webkit-box-shadow: $boxshadow1;
   -moz-box-shadow: $boxshadow1;
