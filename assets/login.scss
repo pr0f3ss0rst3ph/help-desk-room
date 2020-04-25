@@ -3,7 +3,7 @@
 
 $fullwidth: 100%;
 $headingcolor: rgb(66, 66, 66);
-$bodycolor: #ffc97d;
+$bodycolor: #fcdbad;
 $contentbodycolor: rgb(255, 195, 139);
 $buttoncolor: rgb(253, 170, 92);
 $buttonhovercolor: rgb(255, 136, 1);
@@ -54,6 +54,7 @@ form {
 
 /*? Box for Image*/
 .content-body {
+  margin-top: 10%;
   margin-left: 25%;
   margin-right: 25%;
   padding: 7px;

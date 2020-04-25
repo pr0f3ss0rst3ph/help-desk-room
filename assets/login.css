@@ -7,7 +7,7 @@ body {
   padding: 0;
   margin: 0;
   text-align: center;
-  background-color: #ffc97d;
+  background-color: #fcdbad;
 }
 
 /*? Text CSS*/
@@ -43,6 +43,7 @@ form {
 
 /*? Box for Image*/
 .content-body {
+  margin-top: 10%;
   margin-left: 25%;
   margin-right: 25%;
   padding: 7px;
