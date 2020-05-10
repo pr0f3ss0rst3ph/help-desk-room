@@ -1,0 +1,60 @@
+/*? Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+$fullwidth: 100%;
+$headingcolor: #181818;
+$bodycolor: #fcdbad;
+$contentbodycolor: #ffc38b;
+$buttoncolor: #fdaa5c;
+$buttonhovercolor: #ff8801;
+$inputbgcolor: #fff2df;
+$robotofont: "Roboto", sans-serif;
+$standardtransition: 0.5s;
+$boxshadow1: 0px -1px 10px -1px rgba(0, 0, 0, 0.75);
+$boxshadow2: -1px -1px 5px -1px rgba(0, 0, 0, 0.75);
+
+/*? Initial Overall Adjustments*/
+body {
+  width: $fullwidth;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  padding: 10px;
+  width: $fullwidth;
+  background-color: $contentbodycolor;
+  display: flex;
+  align-items: center;
+}
+
+.titletext {
+  text-transform: uppercase;
+  font-family: $robotofont;
+  font-size: 25px;
+  width: 11%;
+}
+
+.search {
+  width: 50%;
+}
+input[type="text"] {
+  padding: 8px;
+  width: 90%;
+  outline: none;
+  background-color: $inputbgcolor;
+  border: none;
+  border-radius: 6px;
+}
+.profile {
+  width: 20%;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+}
+.subtitletext {
+  text-transform: uppercase;
+  font-family: $robotofont;
+  font-size: 15px;
+}

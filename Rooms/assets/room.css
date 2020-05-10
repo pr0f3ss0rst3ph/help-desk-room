@@ -1,0 +1,52 @@
+/*? Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+/*? Initial Overall Adjustments*/
+body {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  padding: 10px;
+  width: 100%;
+  background-color: #ffc38b;
+  display: flex;
+  align-items: center;
+}
+
+.titletext {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  width: 11%;
+}
+
+.search {
+  width: 50%;
+}
+
+input[type=text] {
+  padding: 8px;
+  width: 90%;
+  outline: none;
+  background-color: #fff2df;
+  border: none;
+  border-radius: 6px;
+}
+
+.profile {
+  width: 20%;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+}
+
+.subtitletext {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=room.css.map */
