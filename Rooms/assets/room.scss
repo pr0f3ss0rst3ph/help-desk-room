@@ -7,7 +7,9 @@ $bodycolor: #fcdbad;
 $contentbodycolor: #ffc38b;
 $buttoncolor: #fdaa5c;
 $buttonhovercolor: #ff8801;
-$inputbgcolor: #fff2df;
+$inputbgcolor: #fce6c6;
+$hoverinputbgcolor: #f7f7f7;
+$hoveraccountbutton: #faaf68;
 $robotofont: "Roboto", sans-serif;
 $standardtransition: 0.5s;
 $boxshadow1: 0px -1px 10px -1px rgba(0, 0, 0, 0.75);
@@ -34,6 +36,10 @@ body {
   font-family: $robotofont;
   font-size: 25px;
   width: 11%;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.1em;
 }
 
 .search {
@@ -46,15 +52,66 @@ input[type="text"] {
   background-color: $inputbgcolor;
   border: none;
   border-radius: 6px;
+  transition: 0.5s;
+}
+input[type="text"]:focus {
+  outline: none;
+  background-color: $hoverinputbgcolor;
+}
+
+input[type="text"]:hover {
+  outline: none;
+  background-color: $hoverinputbgcolor;
+  transition: 0.5s;
 }
 .profile {
-  width: 20%;
+  width: 10%;
   margin-left: 25%;
   display: flex;
   align-items: center;
+  padding: 7px;
+  border-radius: 7px;
+  transition: 0.5s;
 }
+
+.profile:hover{
+  background-color: $hoveraccountbutton;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 .subtitletext {
   text-transform: uppercase;
   font-family: $robotofont;
   font-size: 15px;
+  width: 70%;
+}
+
+.accicon{
+  width: 30%;
+}
+
+//next level
+
+.creation{
+  padding: 10px;
+}
+
+.create_1{
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: $buttoncolor;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.create_1:hover{
+  background-color: $buttonhovercolor;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.create:active{
+  outline: none;
 }
