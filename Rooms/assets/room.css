@@ -2,15 +2,19 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 /*? Initial Overall Adjustments*/
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   padding: 0;
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navigation {
   padding: 10px;
-  width: 100%;
+  width: 100vw;
   background-color: #ffc38b;
   display: flex;
   align-items: center;
@@ -25,6 +29,11 @@ body {
   text-decoration: none;
   color: black;
   letter-spacing: 0.1em;
+}
+
+.titletext:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .search {
@@ -72,6 +81,7 @@ input[type=text]:hover {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
+  text-align: center;
   width: 70%;
 }
 
@@ -90,6 +100,7 @@ input[type=text]:hover {
   background-color: #fdaa5c;
   font-weight: bold;
   transition: 0.5s;
+  font-family: "Roboto", sans-serif;
 }
 
 .create_1:hover {
@@ -100,6 +111,75 @@ input[type=text]:hover {
 
 .create:active {
   outline: none;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+  .titletext {
+    font-size: 20px;
+    width: 15%;
+    letter-spacing: 0.5em;
+  }
+
+  .search {
+    width: 70%;
+  }
+
+  input[type=text] {
+    width: 90%;
+  }
+
+  .profile {
+    width: 15%;
+    margin-left: 20%;
+  }
+
+  .subtitletext {
+    font-size: 15px;
+    width: 70%;
+  }
+
+  .accicon {
+    width: 30%;
+  }
+
+  img {
+    width: 50%;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1301px) {
+  .titletext {
+    font-size: 20px;
+    width: 15%;
+    letter-spacing: 0.5em;
+  }
+
+  .search {
+    width: 70%;
+  }
+
+  input[type=text] {
+    width: 90%;
+  }
+
+  .profile {
+    width: 15%;
+    margin-left: 20%;
+  }
+
+  .subtitletext {
+    font-size: 15px;
+    width: 70%;
+  }
+
+  .accicon {
+    width: 30%;
+  }
+
+  img {
+    width: 50%;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=room.css.map */

@@ -1,6 +1,7 @@
 /*? Fonts*/
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
+$fullwidthviewspace: 100vw;
 $fullwidth: 100%;
 $headingcolor: #181818;
 $bodycolor: #fcdbad;
@@ -17,20 +18,26 @@ $boxshadow2: -1px -1px 5px -1px rgba(0, 0, 0, 0.75);
 
 /*? Initial Overall Adjustments*/
 body {
-  width: $fullwidth;
+  width: $fullwidthviewspace;
   height: 100vh;
   padding: 0;
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+//*NAVIGATION BAR - START
 .navigation {
   padding: 10px;
-  width: $fullwidth;
+  width: $fullwidthviewspace;
   background-color: $contentbodycolor;
   display: flex;
   align-items: center;
 }
 
+//? TITLE BOX and font "HELPDESK"
 .titletext {
   text-transform: uppercase;
   font-family: $robotofont;
@@ -42,9 +49,17 @@ body {
   letter-spacing: 0.1em;
 }
 
+.titletext:hover{
+  text-decoration: none;
+  color: black;
+}
+
+//? Search bar box - START
 .search {
   width: 50%;
 }
+
+//? Search bar input field
 input[type="text"] {
   padding: 8px;
   width: 90%;
@@ -64,6 +79,9 @@ input[type="text"]:hover {
   background-color: $hoverinputbgcolor;
   transition: 0.5s;
 }
+//? Search bar box - END
+
+//? My account box - START
 .profile {
   width: 10%;
   margin-left: 25%;
@@ -80,16 +98,22 @@ input[type="text"]:hover {
   cursor: pointer;
 }
 
+//?My account text
 .subtitletext {
   text-transform: uppercase;
   font-family: $robotofont;
   font-size: 15px;
+  text-align: center;
   width: 70%;
 }
 
+//?My account icon
 .accicon{
   width: 30%;
 }
+//? My account box - END
+
+//*NAVIGATION BAR - END
 
 //next level
 
@@ -104,6 +128,7 @@ input[type="text"]:hover {
   background-color: $buttoncolor;
   font-weight: bold;
   transition: 0.5s;
+  font-family: $robotofont;
 }
 
 .create_1:hover{
@@ -114,4 +139,71 @@ input[type="text"]:hover {
 
 .create:active{
   outline: none;
+}
+@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+  .titletext {
+    font-size: 20px; 
+    width: 15%;
+    letter-spacing: 0.5em;
+  }
+  .search {
+    width: 70%;
+  }
+
+  input[type="text"] {
+    width: 90%;
+  }
+
+  .profile {
+    width: 15%;
+    margin-left: 20%;
+  }
+
+  .subtitletext {
+    font-size: 15px;
+    width: 70%;
+  }
+
+  .accicon {
+    width: 30%;
+  }
+
+  img{
+    width: 50%;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1301px) {
+  .titletext {
+    font-size: 20px; 
+    width: 15%;
+    letter-spacing: 0.5em;
+  }
+  .search {
+    width: 70%;
+  }
+
+  input[type="text"] {
+    width: 90%;
+  }
+
+  .profile {
+    width: 15%;
+    margin-left: 20%;
+  }
+
+  .subtitletext {
+    font-size: 15px;
+    width: 70%;
+  }
+
+  .accicon {
+    width: 30%;
+  }
+
+  img{
+    width: 50%;
+    align-items: center;
+  }
 }
