@@ -160,6 +160,7 @@ input[type=text]:hover {
 
   input[type=text] {
     width: 90%;
+    padding: 10px;
   }
 
   .profile {
