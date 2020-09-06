@@ -16,8 +16,12 @@ html {
   padding: 10px;
   width: 100vw;
   background-color: #ffc38b;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .titletext {
@@ -40,53 +44,61 @@ html {
   width: 50%;
 }
 
-input[type=text] {
+input[type="text"] {
   padding: 8px;
   width: 90%;
   outline: none;
   background-color: #fce6c6;
   border: none;
   border-radius: 6px;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-input[type=text]:focus {
+input[type="text"]:focus {
   outline: none;
   background-color: #f7f7f7;
 }
 
-input[type=text]:hover {
+input[type="text"]:hover {
   outline: none;
   background-color: #f7f7f7;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .profile {
-  width: 10%;
+  width: 5%;
   margin-left: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 7px;
   border-radius: 7px;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .profile:hover {
   background-color: #faaf68;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   cursor: pointer;
 }
 
+/*?My account text
 .subtitletext {
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
+  font-family: $robotofont;
   font-size: 15px;
   text-align: center;
   width: 70%;
-}
-
+}*/
 .accicon {
-  width: 30%;
+  width: 100%;
 }
 
 .creation {
@@ -99,12 +111,14 @@ input[type=text]:hover {
   border-radius: 4px;
   background-color: #fdaa5c;
   font-weight: bold;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   font-family: "Roboto", sans-serif;
 }
 
 .create_1:hover {
   background-color: #ff8801;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -119,102 +133,88 @@ input[type=text]:hover {
     width: 15%;
     letter-spacing: 0.5em;
   }
-
   .search {
     width: 70%;
   }
-
-  input[type=text] {
+  input[type="text"] {
     width: 90%;
   }
-
   .profile {
-    width: 15%;
+    width: 5%;
     margin-left: 20%;
   }
-
   .subtitletext {
     font-size: 15px;
     width: 70%;
   }
-
   .accicon {
-    width: 30%;
+    width: 100%;
   }
-
   img {
     width: 50%;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
+
 @media only screen and (max-width: 1300px) and (min-width: 1000px) {
   .titletext {
     font-size: 20px;
     width: 15%;
     letter-spacing: 0.5em;
   }
-
   .search {
     width: 70%;
   }
-
-  input[type=text] {
+  input[type="text"] {
     width: 90%;
   }
-
   .profile {
-    width: 15%;
+    width: 5%;
     margin-left: 20%;
   }
-
   .subtitletext {
     font-size: 15px;
     width: 70%;
   }
-
   .accicon {
-    width: 30%;
+    width: 100%;
   }
-
   img {
     width: 50%;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
+
 @media only screen and (min-width: 1301px) {
   .titletext {
     font-size: 20px;
     width: 15%;
     letter-spacing: 0.5em;
   }
-
   .search {
     width: 70%;
   }
-
-  input[type=text] {
+  input[type="text"] {
     width: 90%;
     padding: 10px;
   }
-
   .profile {
-    width: 15%;
+    width: 5%;
     margin-left: 20%;
   }
-
   .subtitletext {
     font-size: 15px;
     width: 70%;
   }
-
   .accicon {
-    width: 30%;
+    width: 100%;
   }
-
   img {
     width: 50%;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
-
 /*# sourceMappingURL=room.css.map */

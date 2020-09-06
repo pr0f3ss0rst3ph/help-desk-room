@@ -17,18 +17,21 @@ $boxshadow1: 0px -1px 10px -1px rgba(0, 0, 0, 0.75);
 $boxshadow2: -1px -1px 5px -1px rgba(0, 0, 0, 0.75);
 
 /*? Initial Overall Adjustments*/
+//#INIT0
 body {
   width: $fullwidthviewspace;
   height: 100vh;
   padding: 0;
   margin: 0;
 }
-
+//#INIT1
 html {
   scroll-behavior: smooth;
 }
 
 //*NAVIGATION BAR - START
+
+//#NAV0
 .navigation {
   padding: 10px;
   width: $fullwidthviewspace;
@@ -38,6 +41,7 @@ html {
 }
 
 //? TITLE BOX and font "HELPDESK"
+//#NAV1
 .titletext {
   text-transform: uppercase;
   font-family: $robotofont;
@@ -55,11 +59,13 @@ html {
 }
 
 //? Search bar box - START
+//#NAV2
 .search {
   width: 50%;
 }
 
 //? Search bar input field
+//#NAV2.0
 input[type="text"] {
   padding: 8px;
   width: 90%;
@@ -82,8 +88,9 @@ input[type="text"]:hover {
 //? Search bar box - END
 
 //? My account box - START
+//#NAV3
 .profile {
-  width: 10%;
+  width: 5%;
   margin-left: 25%;
   display: flex;
   align-items: center;
@@ -98,18 +105,19 @@ input[type="text"]:hover {
   cursor: pointer;
 }
 
-//?My account text
+/*?My account text
 .subtitletext {
   text-transform: uppercase;
   font-family: $robotofont;
   font-size: 15px;
   text-align: center;
   width: 70%;
-}
+}*/
 
 //?My account icon
+//#NAV3.0
 .accicon{
-  width: 30%;
+  width: 100%;
 }
 //? My account box - END
 
@@ -156,7 +164,7 @@ input[type="text"]:hover {
   }
 
   .profile {
-    width: 15%;
+    width: 5%;
     margin-left: 20%;
   }
 
@@ -166,12 +174,13 @@ input[type="text"]:hover {
   }
 
   .accicon {
-    width: 30%;
+    width: 100%;
   }
 
   img{
     width: 50%;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -190,7 +199,7 @@ input[type="text"]:hover {
   }
 
   .profile {
-    width: 15%;
+    width: 5%;
     margin-left: 20%;
   }
 
@@ -200,12 +209,13 @@ input[type="text"]:hover {
   }
 
   .accicon {
-    width: 30%;
+    width: 100%;
   }
 
   img{
     width: 50%;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -225,7 +235,7 @@ input[type="text"]:hover {
   }
 
   .profile {
-    width: 15%;
+    width: 5%;
     margin-left: 20%;
   }
 
@@ -235,11 +245,12 @@ input[type="text"]:hover {
   }
 
   .accicon {
-    width: 30%;
+    width: 100%;
   }
 
   img{
     width: 50%;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
