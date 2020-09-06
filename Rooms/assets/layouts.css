@@ -9,21 +9,19 @@
 }
 
 input[type="text"] {
+  padding: 8px;
   width: 90%;
+  border: none;
 }
 
 .profile {
-  width: 10%;
+  width: 5%;
   margin-left: 25%;
-}
-
-.subtitletext {
-  font-size: 15px;
-  width: 70%;
+  padding: 7px;
 }
 
 .accicon {
-  width: 30%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 999px) {

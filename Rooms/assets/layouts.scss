@@ -9,21 +9,19 @@
 }
 
 input[type="text"] {
+  padding: 8px; //*Current
   width: 90%; //*Current
+  border: none; //*Current
 }
 
 .profile {
-  width: 10%; //*Current
+  width: 5%; //*Current
   margin-left: 25%; //*Current
-}
-
-.subtitletext {
-  font-size: 15px; //*Current
-  width: 70%; //*Current
+  padding: 7px; //*Current
 }
 
 .accicon {
-  width: 30%; //*Current
+  width: 100%; //*Current
 }
 
 @media only screen and (max-width: 999px){

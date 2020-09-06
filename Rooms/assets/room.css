@@ -89,14 +89,6 @@ input[type="text"]:hover {
   cursor: pointer;
 }
 
-/*?My account text
-.subtitletext {
-  text-transform: uppercase;
-  font-family: $robotofont;
-  font-size: 15px;
-  text-align: center;
-  width: 70%;
-}*/
 .accicon {
   width: 100%;
 }
