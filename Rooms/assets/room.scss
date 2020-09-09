@@ -140,6 +140,7 @@ input[type="text"]:hover {
   outline: none;
 }
 
+/*Smaller Screens*/
 @media only screen and (max-width: 999px){
   .titletext {
     font-size: 20px; 
@@ -175,6 +176,7 @@ input[type="text"]:hover {
   }
 }
 
+/*Mid Size Screens Screens*/
 @media only screen and (max-width: 1300px) and (min-width: 1000px) {
   .titletext {
     font-size: 20px; 
@@ -210,6 +212,7 @@ input[type="text"]:hover {
   }
 }
 
+/*Bigger Screens*/
 @media only screen and (min-width: 1301px) {
   .titletext {
     font-size: 20px; 
