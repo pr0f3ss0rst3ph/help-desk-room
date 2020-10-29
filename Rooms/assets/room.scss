@@ -18,61 +18,61 @@ $boxshadow2: -1px -1px 5px -1px rgba(0, 0, 0, 0.75);
 
 /*? Initial Overall Adjustments*/
 //#INIT0
-body {
-  width: $fullwidthviewspace;
-  height: 100vh;
-  padding: 0;
-  margin: 0;
+body {//Layouts
+  width: $fullwidthviewspace;//Layouts
+  height: 100vh;//Layouts
+  padding: 0;//Layouts
+  margin: 0;//Layouts
 }
 //#INIT1
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;//Behavior
 }
 
 //*NAVIGATION BAR - START
 
 //#NAV0
-.navigation {
-  padding: 10px;
-  width: $fullwidthviewspace;
+.navigation {//Layouts
+  padding: 10px;//Layouts
+  width: $fullwidthviewspace;//Layouts
   background-color: $contentbodycolor;
-  display: flex;
-  align-items: center;
+  display: flex;//Layouts
+  align-items: center;//Layouts
 }
 
 //? TITLE BOX and font "HELPDESK"
 //#NAV1
-.titletext {
+.titletext {//Layouts
   text-transform: uppercase;
-  font-family: $robotofont;
-  font-size: 25px;
-  width: 11%;
-  cursor: pointer;
-  text-decoration: none;
+  font-family: $robotofont;//Behavior
+  font-size: 25px;//Layouts
+  width: 11%;//Layouts
+  cursor: pointer;//Layouts
+  text-decoration: none;//Behavior
   color: black;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1em;//Layouts
 }
 
 .titletext:hover{
-  text-decoration: none;
+  text-decoration: none;//Behavior
   color: black;
 }
 
 //? Search bar box - START
 //#NAV2
-.search {
-  width: 50%;
-}
+.search {//Layouts
+  width: 50%;//Layouts
+}//Layouts
 
 //? Search bar input field
 //#NAV2.0
-input[type="text"] {
-  padding: 8px;
-  width: 90%;
-  outline: none;
+input[type="text"] {//Layouts
+  padding: 8px;//Layouts
+  width: 90%;//Layouts
+  outline: none;//Behavior
   background-color: $inputbgcolor;
-  border: none;
-  border-radius: 6px;
+  border: none;//Behavior
+  border-radius: 6px;//Layouts
   transition: 0.5s;
 }
 input[type="text"]:focus {
@@ -89,14 +89,14 @@ input[type="text"]:hover {
 
 //? My account box - START
 //#NAV3
-.profile {
-  width: 5%;
-  margin-left: 25%;
-  display: flex;
-  align-items: center;
-  padding: 7px;
-  border-radius: 7px;
-  transition: 0.5s;
+.profile {//Layouts
+  width: 5%;//Layouts
+  margin-left: 25%;//Layouts
+  display: flex;//Layouts
+  align-items: center;//Layouts
+  padding: 7px;//Layouts
+  border-radius: 7px;//Layouts
+  transition: 0.5s;//Layouts
 }
 
 .profile:hover{
@@ -107,8 +107,8 @@ input[type="text"]:hover {
 
 //?My account icon
 //#NAV3.0
-.accicon{
-  width: 100%;
+.accicon{//Layouts
+  width: 100%;//Layouts
 }
 //? My account box - END
 
@@ -116,14 +116,14 @@ input[type="text"]:hover {
 
 //next level
 
-.creation{
-  padding: 10px;
+.creation{//Layouts
+  padding: 10px;//Layouts
 }
 
-.create_1{
-  border: 0;
-  padding: 8px;
-  border-radius: 4px;
+.create_1{//Layouts
+  border: 0;//Layouts
+  padding: 8px;//Layouts
+  border-radius: 4px;//Layouts
   background-color: $buttoncolor;
   font-weight: bold;
   transition: 0.5s;

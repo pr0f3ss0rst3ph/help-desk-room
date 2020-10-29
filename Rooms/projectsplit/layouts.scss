@@ -1,0 +1,222 @@
+$fullwidthviewspace: 100vw;
+$fullwidth: 100%;
+
+//*{ Base Layout -Start-
+//#INIT0
+body {
+  width: $fullwidthviewspace;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+//*NAVIGATION BAR - START
+
+//#NAV0
+.navigation {
+  padding: 10px;
+  width: $fullwidthviewspace;
+  display: flex;
+  align-items: center;
+}
+
+//? TITLE BOX and font "HELPDESK"
+//#NAV1
+.titletext {
+  text-transform: uppercase;
+  font-size: 25px;
+  width: 11%;
+  letter-spacing: 0.1em;
+}
+
+
+//? Search bar box - START
+//#NAV2
+.search {
+  width: 50%;
+}
+
+//? Search bar input field
+//#NAV2.0
+input[type="text"] {
+  padding: 8px;
+  width: 90%;
+  outline: none;//Behavior
+  border: none;//Behavior
+  border-radius: 6px;
+  transition: 0.5s;
+}
+input[type="text"]:focus {
+  outline: none;
+  background-color: $hoverinputbgcolor;
+}
+
+input[type="text"]:hover {
+  outline: none;
+  background-color: $hoverinputbgcolor;
+  transition: 0.5s;
+}
+//? Search bar box - END
+
+//? My account box - START
+//#NAV3
+.profile {
+  width: 5%;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  border-radius: 7px;
+  transition: 0.5s;}
+
+.profile:hover{
+  background-color: $hoveraccountbutton;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+//?My account icon
+//#NAV3.0
+.accicon{
+  width: 100%;
+}
+//? My account box - END
+
+//*NAVIGATION BAR - END
+
+//next level
+
+.creation{
+  padding: 10px;
+}
+
+.create_1{
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.create_1:hover{
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.create:active{
+  outline: none;
+}
+
+//* Base Layout -END-}
+
+//*{ Small Screen Layout -START-
+@media only screen and (max-width: 999px){
+  .titletext {
+    font-size: 20px; 
+    width: 15%;
+    letter-spacing: 0.5em;
+  }
+  .search {
+    width: 70%;
+  }
+
+  input[type="text"] {
+    width: 90%;
+  }
+
+  .profile {
+    width: 5%;
+    margin-left: 20%;
+  }
+
+  .subtitletext {
+    font-size: 15px;
+    width: 70%;
+  }
+
+  .accicon {
+    width: 100%;
+  }
+
+  img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+//* Small Screen Layout -END- }
+
+//*{ Mid Screen Layout -START-
+@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+  .titletext {
+    font-size: 20px; 
+    width: 15%;
+    letter-spacing: 0.5em;
+  }
+  .search {
+    width: 70%;
+  }
+
+  input[type="text"] {
+    width: 90%;
+  }
+
+  .profile {
+    width: 5%;
+    margin-left: 20%;
+  }
+
+  .subtitletext {
+    font-size: 15px;
+    width: 70%;
+  }
+
+  .accicon {
+    width: 100%;
+  }
+
+  img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+//* Mid Screen Layout -END- }
+
+//*{ Large Screen Layout -START-
+@media only screen and (min-width: 1301px) {
+  .titletext {
+    font-size: 20px; 
+    width: 15%;
+    letter-spacing: 0.5em;
+  }
+  .search {
+    width: 70%;
+  }
+
+  input[type="text"] {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .profile {
+    width: 5%;
+    margin-left: 20%;
+  }
+
+  .subtitletext {
+    font-size: 15px;
+    width: 70%;
+  }
+
+  .accicon {
+    width: 100%;
+  }
+
+  img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+//* Large Screen Layout -END- }
