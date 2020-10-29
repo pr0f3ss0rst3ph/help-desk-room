@@ -1,3 +1,6 @@
+/*? Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
 $fullwidthviewspace: 100vw;
 $fullwidth: 100%;
 
@@ -8,6 +11,11 @@ body {
   height: 100vh;
   padding: 0;
   margin: 0;
+}
+
+//#INIT1
+html {
+  scroll-behavior: smooth;//Behavior
 }
 
 //*NAVIGATION BAR - START
@@ -24,11 +32,18 @@ body {
 //#NAV1
 .titletext {
   text-transform: uppercase;
+  font-family: $robotofont;
   font-size: 25px;
   width: 11%;
+  cursor: pointer;
+  text-decoration: none;
   letter-spacing: 0.1em;
 }
 
+.titletext:hover{
+  text-decoration: none;//Behavior
+  color: black;
+}
 
 //? Search bar box - START
 //#NAV2
@@ -48,12 +63,10 @@ input[type="text"] {
 }
 input[type="text"]:focus {
   outline: none;
-  background-color: $hoverinputbgcolor;
 }
 
 input[type="text"]:hover {
   outline: none;
-  background-color: $hoverinputbgcolor;
   transition: 0.5s;
 }
 //? Search bar box - END
@@ -70,7 +83,6 @@ input[type="text"]:hover {
   transition: 0.5s;}
 
 .profile:hover{
-  background-color: $hoveraccountbutton;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -96,6 +108,7 @@ input[type="text"]:hover {
   border-radius: 4px;
   font-weight: bold;
   transition: 0.5s;
+  font-family: $robotofont;
 }
 
 .create_1:hover{
