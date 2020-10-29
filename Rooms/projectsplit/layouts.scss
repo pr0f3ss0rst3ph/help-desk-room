@@ -1,5 +1,6 @@
 /*? Fonts*/
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import "colors";
 
 $fullwidthviewspace: 100vw;
 $fullwidth: 100%;
@@ -24,6 +25,7 @@ html {
 .navigation {
   padding: 10px;
   width: $fullwidthviewspace;
+  background-color: $contentbodycolor;
   display: flex;
   align-items: center;
 }
@@ -37,6 +39,7 @@ html {
   width: 11%;
   cursor: pointer;
   text-decoration: none;
+  color: black;
   letter-spacing: 0.1em;
 }
 
@@ -57,16 +60,19 @@ input[type="text"] {
   padding: 8px;
   width: 90%;
   outline: none;//Behavior
+  background-color: $inputbgcolor;
   border: none;//Behavior
   border-radius: 6px;
   transition: 0.5s;
 }
 input[type="text"]:focus {
   outline: none;
+  background-color: $hoverinputbgcolor;
 }
 
 input[type="text"]:hover {
   outline: none;
+  background-color: $hoverinputbgcolor;
   transition: 0.5s;
 }
 //? Search bar box - END
@@ -83,6 +89,7 @@ input[type="text"]:hover {
   transition: 0.5s;}
 
 .profile:hover{
+  background-color: $hoveraccountbutton;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -106,12 +113,14 @@ input[type="text"]:hover {
   border: 0;
   padding: 8px;
   border-radius: 4px;
+  background-color: $buttoncolor;
   font-weight: bold;
   transition: 0.5s;
   font-family: $robotofont;
 }
 
 .create_1:hover{
+  background-color: $buttonhovercolor;
   transition: 0.5s;
   cursor: pointer;
 }
