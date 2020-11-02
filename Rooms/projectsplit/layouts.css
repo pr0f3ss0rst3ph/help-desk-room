@@ -1,0 +1,214 @@
+/*? Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navigation {
+  padding: 10px;
+  width: 100vw;
+  background-color: #ffc38b;
+  display: flex;
+  align-items: center;
+}
+
+.titletext {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  width: 11%;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.1em;
+}
+
+.titletext:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.search {
+  width: 50%;
+}
+
+input[type=text] {
+  padding: 8px;
+  width: 90%;
+  outline: none;
+  background-color: #fce6c6;
+  border: none;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+input[type=text]:focus {
+  outline: none;
+  background-color: #f7f7f7;
+}
+
+input[type=text]:hover {
+  outline: none;
+  background-color: #f7f7f7;
+  transition: 0.5s;
+}
+
+.profile {
+  width: 5%;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  border-radius: 7px;
+  transition: 0.5s;
+}
+
+.profile:hover {
+  background-color: #faaf68;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.accicon {
+  width: 100%;
+}
+
+.creation {
+  padding: 10px;
+}
+
+.create_1 {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #fdaa5c;
+  font-weight: bold;
+  transition: 0.5s;
+  font-family: "Roboto", sans-serif;
+}
+
+.create_1:hover {
+  background-color: #ff8801;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.create:active {
+  outline: none;
+}
+
+@media only screen and (max-width: 999px) {
+  .titletext {
+    font-size: 20px;
+    width: 15%;
+    letter-spacing: 0.5em;
+  }
+
+  .search {
+    width: 70%;
+  }
+
+  input[type=text] {
+    width: 90%;
+  }
+
+  .profile {
+    width: 5%;
+    margin-left: 20%;
+  }
+
+  .subtitletext {
+    font-size: 15px;
+    width: 70%;
+  }
+
+  .accicon {
+    width: 100%;
+  }
+
+  img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+  .titletext {
+    font-size: 20px;
+    width: 15%;
+    letter-spacing: 0.5em;
+  }
+
+  .search {
+    width: 70%;
+  }
+
+  input[type=text] {
+    width: 90%;
+  }
+
+  .profile {
+    width: 5%;
+    margin-left: 20%;
+  }
+
+  .subtitletext {
+    font-size: 15px;
+    width: 70%;
+  }
+
+  .accicon {
+    width: 100%;
+  }
+
+  img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 1301px) {
+  .titletext {
+    font-size: 20px;
+    width: 15%;
+    letter-spacing: 0.5em;
+  }
+
+  .search {
+    width: 70%;
+  }
+
+  input[type=text] {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .profile {
+    width: 5%;
+    margin-left: 20%;
+  }
+
+  .subtitletext {
+    font-size: 15px;
+    width: 70%;
+  }
+
+  .accicon {
+    width: 100%;
+  }
+
+  img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*# sourceMappingURL=layouts.css.map */
