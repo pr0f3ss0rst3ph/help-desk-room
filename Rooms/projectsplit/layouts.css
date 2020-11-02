@@ -145,7 +145,7 @@ input[type=text]:hover {
   }
 
   .profile {
-    width: 5%;
+    width: 3%;
     margin-left: 20%;
   }
 
@@ -156,6 +156,7 @@ input[type=text]:hover {
 
   .accicon {
     width: 100%;
+    align-content: center;
   }
 
   img {
