@@ -22,12 +22,9 @@ html {
 .titletext {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
-  font-size: 25px;
-  width: 11%;
   cursor: pointer;
   text-decoration: none;
   color: black;
-  letter-spacing: 0.1em;
 }
 
 .titletext:hover {
@@ -35,13 +32,8 @@ html {
   color: black;
 }
 
-.search {
-  width: 50%;
-}
-
 input[type=text] {
   padding: 8px;
-  width: 90%;
   outline: none;
   background-color: #fce6c6;
   border: none;
@@ -61,8 +53,6 @@ input[type=text]:hover {
 }
 
 .profile {
-  width: 5%;
-  margin-left: 25%;
   display: flex;
   align-items: center;
   padding: 7px;
