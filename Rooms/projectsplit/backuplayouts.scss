@@ -36,9 +36,12 @@ html {
 .titletext {
   text-transform: uppercase;
   font-family: $robotofont;
+  font-size: 25px;
+  width: 11%;
   cursor: pointer;
   text-decoration: none;
   color: black;
+  letter-spacing: 0.1em;
 }
 
 .titletext:hover{
@@ -47,12 +50,16 @@ html {
 }
 
 //? Search bar box - START
-//#NAV2 - .search{}
+//#NAV2
+.search {
+  width: 50%;
+}
 
 //? Search bar input field
 //#NAV2.0
 input[type="text"] {
   padding: 8px;
+  width: 90%;
   outline: none;//Behavior
   background-color: $inputbgcolor;
   border: none;//Behavior
@@ -74,6 +81,8 @@ input[type="text"]:hover {
 //? My account box - START
 //#NAV3
 .profile {
+  width: 5%;
+  margin-left: 25%;
   display: flex;
   align-items: center;
   padding: 7px;
