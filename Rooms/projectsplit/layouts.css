@@ -112,6 +112,7 @@ input[type=text]:hover {
   .profile {
     width: 5%;
     margin-left: 20%;
+    text-align: center;
   }
 
   .subtitletext {
@@ -147,6 +148,7 @@ input[type=text]:hover {
   .profile {
     width: 3%;
     margin-left: 20%;
+    text-align: center;
   }
 
   .subtitletext {
@@ -184,6 +186,7 @@ input[type=text]:hover {
   .profile {
     width: 5%;
     margin-left: 20%;
+    text-align: center;
   }
 
   .subtitletext {
