@@ -25,6 +25,7 @@ html {
   cursor: pointer;
   text-decoration: none;
   color: black;
+  text-align: center;
 }
 
 .titletext:hover {
